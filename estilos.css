@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* color de fondo */
+.container{
+    background-color: rgb(129, 185, 207);
+}
+
+/* estructura de mi header*/
+.encabezado{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    justify-content: center;
+    background-color:rgb(238, 132, 93);
+    height: 80px;
+}
+/*titulo*/
+h1{
+    color:yellow;
+    text-align: center;
+    font-size: 3rem;
+    margin: 5px;
+}
+
+/* estilo li del header */
+.encabezado li{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+}
+
+/* estilo a links */
+a{  
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+/* estructura de mis cajas */
+.caja{
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
+/* titulo de mis cajas */
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 23, 70);
+}
+/* estilo de mis cajas */
+.azul{
+    background-color: blue;
+}
+/* transformacion caja azul a skew */
+.skew:hover{
+    transform: skew(50deg);
+}
+.roja{
+    background-color: red;
+}
+/* transformacion caja roja a rotate */
+    .rotate:hover{
+        transform:rotate(30deg);
+    }
+    /* cajas con estilo animate y wow */
+    .amarilla{
+        background-color: yellow;
+    }
+    .verde{
+    background-color: green;
+}
+/* caja con estilos gradientes */
+.naranja{
+    background: linear-gradient(red,orange,yellow);
+}
+.rosa{
+    background: linear-gradient(pink,purple,violet);
+}
+.nyb{
+    background: linear-gradient(black,grey,white);
+}
+/*pie de pagina*/
+footer{ 
+    background-color:rgb(238, 132, 93);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    height: 60px;
+    width: 100% ;
+}
